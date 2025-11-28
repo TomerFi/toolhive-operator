@@ -1,5 +1,11 @@
 # This file is required to configure ToolHive Operator release information for ODH/RHOAI Operator
 releases:
-  - name: ToolHive
+  - name: ToolHive Operator
     version: 0.5.2
     repoUrl: https://github.com/stacklok/toolhive
+  - name: ToolHive Proxy Runner
+    version: 0.5.2
+    repoUrl: https://github.com/stacklok/toolhive
+  - name: ToolHive Registry API
+    version: latest
+    repoUrl: https://github.com/stacklok/toolhive-registry-server
